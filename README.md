@@ -107,7 +107,7 @@ env default -a
 
 # Config the eMMC partitions size
 setenv partitions "name=sparse,size=2031kb"
-setenv partitions "$partitions;name=bootpart,size=60MiB"
+setenv partitions "$partitions;name=boot,size=60MiB"
 setenv partitions "$partitions;name=system,size=1500MiB"
 setenv partitions "$partitions;name=vendor,size=100MiB"
 setenv partitions "$partitions;name=cache,size=256MiB"
